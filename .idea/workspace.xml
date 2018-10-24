@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="054a1c52-f6a0-4fab-a064-dc222b1471e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/mainCrawl.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/mainCrawl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="054a1c52-f6a0-4fab-a064-dc222b1471e2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,23 +23,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="py" value="8" />
-          <entry key="txt" value="2" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2309" />
+          <entry key="py" value="2313" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2309" />
+          <entry key="Python" value="2313" />
         </counts>
       </usages-collector>
     </session>
@@ -67,12 +63,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="46" column="59" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="59" />
+            <state relative-caret-position="360">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="17" />
               <folding>
                 <element signature="e#1#34#0" expanded="true" />
-                <marker date="1540386674475" expanded="true" signature="225:715" ph="..." />
-                <marker date="1540386674475" expanded="true" signature="518:545" ph="..." />
+                <marker date="1540386768976" expanded="true" signature="225:693" ph="..." />
+                <marker date="1540386768976" expanded="true" signature="496:523" ph="..." />
               </folding>
             </state>
           </provider>
@@ -122,10 +118,11 @@
         <option value="$PROJECT_DIR$/handleGraph/pageRank.py" />
         <option value="$PROJECT_DIR$/crawler/mainCrawl.py" />
         <option value="$PROJECT_DIR$/main/main.py" />
+        <option value="$PROJECT_DIR$/main/20181_IT4868_Assignment01_GroupXXX_ranking.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="985" />
     <option name="y" value="-4" />
     <option name="width" value="933" />
@@ -253,7 +250,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="-4" width="1869" height="1084" extended-state="6" />
+    <frame x="51" y="-4" width="1869" height="1084" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14788732" />
@@ -261,7 +258,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46548116" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46548116" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -329,16 +326,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/20181_IT4868_Assignment01_GroupXXX_ranking.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="46" column="59" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="59" />
+        <state relative-caret-position="360">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="17" />
           <folding>
             <element signature="e#1#34#0" expanded="true" />
-            <marker date="1540386674475" expanded="true" signature="225:715" ph="..." />
-            <marker date="1540386674475" expanded="true" signature="518:545" ph="..." />
+            <marker date="1540386768976" expanded="true" signature="225:693" ph="..." />
+            <marker date="1540386768976" expanded="true" signature="496:523" ph="..." />
           </folding>
         </state>
       </provider>
