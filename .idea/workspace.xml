@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="054a1c52-f6a0-4fab-a064-dc222b1471e2" name="Default Changelist" comment="" />
+    <list default="true" id="054a1c52-f6a0-4fab-a064-dc222b1471e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/crawler/tiki.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment/classifi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/mainCrawl.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/mainCrawl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/20181_IT4868_Assignment01_GroupXXX_ranking.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/20181_IT4868_Assignment01_GroupXXX_report.pdf" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,88 +19,55 @@
     <session id="-1871502177">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.67" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="8" />
+          <entry key="3sao-Nga" value="1" />
+          <entry key="4sao" value="3" />
+          <entry key="5sao" value="1" />
+          <entry key="py" value="15" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="8" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2313" />
+          <entry key="py" value="3554" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2313" />
+          <entry key="Python" value="3554" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawler/mainCrawl.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-                <marker date="1540385918827" expanded="true" signature="92:93" ph="..." />
-                <marker date="1540385918827" expanded="true" signature="541:885" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/main.py">
+        <entry file="file://$PROJECT_DIR$/sentiment/classifi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="17" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="17" />
+            <state relative-caret-position="126">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="e#1#34#0" expanded="true" />
-                <marker date="1540386768976" expanded="true" signature="225:693" ph="..." />
-                <marker date="1540386768976" expanded="true" signature="496:523" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handleGraph/pageRank.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-              <folding>
-                <marker date="1540347634516" expanded="true" signature="53:58" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handleGraph/createGraph.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <marker date="1540345451887" expanded="true" signature="77:82" ph="..." />
-                <marker date="1540345451887" expanded="true" signature="177:182" ph="..." />
+                <element signature="e#583#1230#0" />
+                <marker date="1543107431170" expanded="true" signature="346:351" ph="..." />
+                <marker date="1543107431170" expanded="true" signature="728:1676" ph="..." />
               </folding>
             </state>
           </provider>
@@ -108,6 +82,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>shopee-product-rating__content</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -116,17 +95,19 @@
       <list>
         <option value="$PROJECT_DIR$/buildGraph/createGraph.py" />
         <option value="$PROJECT_DIR$/handleGraph/pageRank.py" />
-        <option value="$PROJECT_DIR$/crawler/mainCrawl.py" />
         <option value="$PROJECT_DIR$/main/main.py" />
         <option value="$PROJECT_DIR$/main/20181_IT4868_Assignment01_GroupXXX_ranking.txt" />
+        <option value="$PROJECT_DIR$/crawler/mainCrawl.py" />
+        <option value="$PROJECT_DIR$/crawler/tiki.py" />
+        <option value="$PROJECT_DIR$/sentiment/classifi.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="985" />
+    <option name="x" value="57" />
     <option name="y" value="-4" />
-    <option name="width" value="933" />
-    <option name="height" value="1076" />
+    <option name="width" value="1223" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -144,17 +125,13 @@
             <path>
               <item name="pageRank" type="b2602c69:ProjectViewProjectNode" />
               <item name="pageRank" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="sentiment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pageRank" type="b2602c69:ProjectViewProjectNode" />
               <item name="pageRank" type="462c0819:PsiDirectoryNode" />
-              <item name="handleGraph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pageRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pageRank" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="sentiment" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pageRank" type="b2602c69:ProjectViewProjectNode" />
@@ -168,6 +145,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sorl_flask_gensim" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -182,7 +160,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.classifi">
+    <configuration name="classifi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pageRank" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sentiment" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sentiment/classifi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pageRank" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,14 +224,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tiki" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pageRank" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawler/tiki.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.mainCrawl" />
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.tiki" />
+      <item itemvalue="Python.classifi" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.classifi" />
+        <item itemvalue="Python.tiki" />
         <item itemvalue="Python.mainCrawl" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -250,15 +274,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="-4" width="1869" height="1084" extended-state="7" />
+    <frame x="51" y="-4" width="1869" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14788732" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24918744" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46548116" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5313808" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -292,54 +316,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/20181_IT4868_Assignment01_GroupXXX_ranking.txt" />
     <entry file="file://$PROJECT_DIR$/handleGraph/pageRank.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-          <folding>
-            <marker date="1540347634516" expanded="true" signature="53:58" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/handleGraph/createGraph.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <marker date="1540345451887" expanded="true" signature="77:82" ph="..." />
-            <marker date="1540345451887" expanded="true" signature="177:182" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/mainCrawl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-            <marker date="1540385918827" expanded="true" signature="92:93" ph="..." />
-            <marker date="1540385918827" expanded="true" signature="541:885" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/20181_IT4868_Assignment01_GroupXXX_ranking.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="72">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/mainCrawl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding>
-            <element signature="e#1#34#0" expanded="true" />
-            <marker date="1540386768976" expanded="true" signature="225:693" ph="..." />
-            <marker date="1540386768976" expanded="true" signature="496:523" ph="..." />
+            <element signature="e#0#29#0" expanded="true" />
+            <marker date="1542812890253" expanded="true" signature="92:93" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler/tiki.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <marker date="1543103713977" expanded="true" signature="70:74" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.5/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="354" selection-start-line="354" selection-end-line="354" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/data/5sao">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/data/3sao-Nga">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="44" selection-start-line="9" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/data/4sao">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/classifi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#583#1230#0" />
+            <marker date="1543107431170" expanded="true" signature="346:351" ph="..." />
+            <marker date="1543107431170" expanded="true" signature="728:1676" ph="..." />
           </folding>
         </state>
       </provider>

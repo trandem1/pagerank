@@ -28,5 +28,6 @@ def getTitleLink (link):
     except:
         return "khong tim thay title"
 
-# print(getTitleLink('https://vi.wikipedia.org/wiki/Tổng_Bí_thư_Ban_Chấp_hành_Trung_ương_Đảng_Cộng_sản_Việt_Nam'))
+print(getTitleLink('https://shopee.vn/'))
+print(getTitleLink('https://vi.wikipedia.org/wiki/Tổng_Bí_thư_Ban_Chấp_hành_Trung_ương_Đảng_Cộng_sản_Việt_Nam'))
 # x =getAllDestLink('https://vi.wikipedia.org/wiki/Tổng_Bí_thư_Ban_Chấp_hành_Trung_ương_Đảng_Cộng_sản_Việt_Nam')
