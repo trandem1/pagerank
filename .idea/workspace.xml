@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="054a1c52-f6a0-4fab-a064-dc222b1471e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/crawler/tiki.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentiment/classifi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommen/cf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment/classifi_aspect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment/clusteringdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment/extractVector_for_sentiment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment/extract_vector_for_aspect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment/stop_word.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentiment/uliti.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/mainCrawl.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/mainCrawl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/20181_IT4868_Assignment01_GroupXXX_ranking.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/20181_IT4868_Assignment01_GroupXXX_report.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentiment/classifi.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentiment/classifi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentiment/data/data" beforeDir="false" afterPath="$PROJECT_DIR$/sentiment/data/data" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,40 +23,64 @@
     <session id="-1871502177">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.67" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="3sao-Nga" value="1" />
-          <entry key="4sao" value="3" />
-          <entry key="5sao" value="1" />
-          <entry key="py" value="15" />
-          <entry key="txt" value="5" />
+          <entry key="1sao" value="1" />
+          <entry key="2sao" value="3" />
+          <entry key="3sao" value="2" />
+          <entry key="3sao-Nga" value="2" />
+          <entry key="4sao" value="6" />
+          <entry key="5sao" value="3" />
+          <entry key="aspect" value="1" />
+          <entry key="data" value="3" />
+          <entry key="datafinalToken" value="11" />
+          <entry key="dien_lanh" value="6" />
+          <entry key="dien_tu" value="4" />
+          <entry key="finalData" value="7" />
+          <entry key="py" value="61" />
+          <entry key="stop_word" value="1" />
+          <entry key="toy" value="1" />
+          <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="15" />
+          <entry key="PLAIN_TEXT" value="61" />
+          <entry key="Python" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3554" />
+          <entry key="datafinalToken" value="1" />
+          <entry key="dummy" value="14" />
+          <entry key="py" value="8486" />
+          <entry key="stop_word" value="28" />
+          <entry key="txt" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3554" />
+          <entry key="PLAIN_TEXT" value="77" />
+          <entry key="Python" value="8486" />
         </counts>
       </usages-collector>
     </session>
@@ -60,14 +88,65 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sentiment/clusteringdata.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+              <folding>
+                <element signature="e#1#56#0" expanded="true" />
+                <marker date="1545379348495" expanded="true" signature="1509:1557" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentiment/extract_vector_for_aspect.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentiment/extractVector_for_sentiment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="60" column="33" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentiment/classifi_aspect.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentiment/dien_lanh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="38" column="375" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="375" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sentiment/classifi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="72">
+              <caret line="4" column="28" selection-start-line="4" selection-end-line="5" />
               <folding>
-                <element signature="e#583#1230#0" />
-                <marker date="1543107431170" expanded="true" signature="346:351" ph="..." />
-                <marker date="1543107431170" expanded="true" signature="728:1676" ph="..." />
+                <marker date="1545364388357" expanded="true" signature="345:350" ph="..." />
+                <marker date="1545364388357" expanded="true" signature="1202:1332" ph="..." />
               </folding>
             </state>
           </provider>
@@ -85,6 +164,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>shopee-product-rating__content</find>
+      <find>1</find>
+      <find>Chât lượng dịch vụ</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,11 +180,21 @@
         <option value="$PROJECT_DIR$/main/20181_IT4868_Assignment01_GroupXXX_ranking.txt" />
         <option value="$PROJECT_DIR$/crawler/mainCrawl.py" />
         <option value="$PROJECT_DIR$/crawler/tiki.py" />
+        <option value="$PROJECT_DIR$/recommen/cf.py" />
+        <option value="$PROJECT_DIR$/sentiment/extractVector.py" />
+        <option value="$PROJECT_DIR$/sentiment/extract_vector_for_aspect.py" />
+        <option value="$PROJECT_DIR$/sentiment/classifi_aspect.py" />
+        <option value="$PROJECT_DIR$/sentiment/datafinalToken" />
+        <option value="$PROJECT_DIR$/sentiment/stop_word" />
+        <option value="$PROJECT_DIR$/sentiment/stop_word.txt" />
+        <option value="$PROJECT_DIR$/sentiment/uliti.py" />
+        <option value="$PROJECT_DIR$/sentiment/data/data" />
         <option value="$PROJECT_DIR$/sentiment/classifi.py" />
+        <option value="$PROJECT_DIR$/sentiment/clusteringdata.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="57" />
     <option name="y" value="-4" />
     <option name="width" value="1223" />
@@ -115,6 +206,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,24 +221,24 @@
             </path>
             <path>
               <item name="pageRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pageRank" type="462c0819:PsiDirectoryNode" />
-              <item name="sentiment" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pageRank" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sorl_flask_gensim" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/fuzzy_logic" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sentiment/data/rawdata" />
+      <recent name="$PROJECT_DIR$/sentiment/data" />
+      <recent name="$PROJECT_DIR$/sentiment/model" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.classifi">
+  <component name="RunManager" selected="Python.clusteringdata">
     <configuration name="classifi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pageRank" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,7 +274,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="classifi_aspect" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pageRank" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -190,11 +282,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sentiment" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sentiment/classifi_aspect.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,7 +295,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mainCrawl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="clusteringdata" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pageRank" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -211,11 +303,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawler" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sentiment" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawler/mainCrawl.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sentiment/clusteringdata.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,7 +316,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tiki" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="extractVector" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pageRank" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,11 +324,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawler" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sentiment" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawler/tiki.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sentiment/extractVector_for_sentiment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="uliti" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pageRank" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sentiment" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sentiment/uliti.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,17 +359,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.mainCrawl" />
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.tiki" />
       <item itemvalue="Python.classifi" />
+      <item itemvalue="Python.extractVector" />
+      <item itemvalue="Python.clusteringdata" />
+      <item itemvalue="Python.classifi_aspect" />
+      <item itemvalue="Python.uliti" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.clusteringdata" />
         <item itemvalue="Python.classifi" />
-        <item itemvalue="Python.tiki" />
-        <item itemvalue="Python.mainCrawl" />
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.uliti" />
+        <item itemvalue="Python.classifi_aspect" />
+        <item itemvalue="Python.extractVector" />
       </list>
     </recent_temporary>
   </component>
@@ -274,15 +389,33 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="-4" width="1869" height="1084" extended-state="6" />
-    <editor active="true" />
+    <frame x="50" y="-11" width="1871" height="1092" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24918744" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16684724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5313808" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5753138" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39958158" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32919255" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24918744" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46861926" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -294,7 +427,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -331,21 +464,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crawler/mainCrawl.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-            <marker date="1542812890253" expanded="true" signature="92:93" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -353,41 +475,246 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-            <marker date="1543103713977" expanded="true" signature="70:74" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/20181_IT4868_Assignment02_Group10_train.txt" />
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="2919" selection-start-line="2919" selection-end-line="2919" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/20181_IT4868_Assignment01_Group10_ranking.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/20181_IT4868_Assignment02_Group10_test.txt" />
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="4517" column="8" selection-start-line="4517" selection-start-column="8" selection-end-line="4517" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/scipy/sparse/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3835" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommen/cf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="166" selection-start-line="166" selection-end-line="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.5/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/data/3sao">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1134" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/sklearn/decomposition/online_lda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="646" column="54" selection-start-line="646" selection-start-column="31" selection-end-line="646" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/data/1sao">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="191" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/data/2sao">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/data/5sao">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="131" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/data/rawdata/toy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27855" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/data/rawdata/dien_tu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/model/aspect">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-648" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/stop_word.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/lib/python3.5/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
+        <state relative-caret-position="323">
           <caret line="354" selection-start-line="354" selection-end-line="354" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentiment/data/5sao">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentiment/data/3sao-Nga">
+    <entry file="file://$PROJECT_DIR$/sentiment/datafinalToken">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="44" selection-start-line="9" selection-end-line="10" />
+        <state relative-caret-position="18">
+          <caret line="1" column="103" lean-forward="true" selection-start-line="1" selection-start-column="103" selection-end-line="1" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/uliti.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/sklearn/feature_extraction/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="299" selection-start-line="299" selection-end-line="299" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sentiment/data/4sao">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/sklearn/model_selection/_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1627">
+          <caret line="2072" column="4" selection-start-line="2072" selection-start-column="4" selection-end-line="2072" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/finalData">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1188">
+          <caret column="20" selection-start-column="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/sklearn/svm/classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="604" column="30" selection-start-line="604" selection-start-column="30" selection-end-line="604" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/data/3sao-Nga">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="99" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/data/rawdata/dien_lanh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/data/data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/sklearn/utils/multiclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/clusteringdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+          <folding>
+            <element signature="e#1#56#0" expanded="true" />
+            <marker date="1545379348495" expanded="true" signature="1509:1557" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/extract_vector_for_aspect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/extractVector_for_sentiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="60" column="33" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/classifi_aspect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment/dien_lanh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="375" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="375" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sentiment/classifi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="72">
+          <caret line="4" column="28" selection-start-line="4" selection-end-line="5" />
           <folding>
-            <element signature="e#583#1230#0" />
-            <marker date="1543107431170" expanded="true" signature="346:351" ph="..." />
-            <marker date="1543107431170" expanded="true" signature="728:1676" ph="..." />
+            <marker date="1545364388357" expanded="true" signature="345:350" ph="..." />
+            <marker date="1545364388357" expanded="true" signature="1202:1332" ph="..." />
           </folding>
         </state>
       </provider>
